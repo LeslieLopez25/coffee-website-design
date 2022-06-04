@@ -371,6 +371,10 @@ button {
     margin: auto 0;
 }
 
+.products__item {
+    cursor: pointer;
+}
+
 .products__title {
     font-size: var(--h3-font-size);
     color: var(--text-color);
@@ -429,4 +433,9 @@ button {
 
 .products__card:hover .products__img {
     transform: translateY(-.25rem);
+}
+
+/* ACTIVE LINK PRODUCTS */
+.active-product .products__title {
+    color: var(--title-color);
 }
