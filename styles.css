@@ -1060,3 +1060,12 @@ button {
         width: 130px;
     }
 }
+
+/* ALTERNATIVE CODE, FOR LARGER SCREENS */
+@media screen and (min-width: 1700px) {
+    .home {
+        max-width: 1400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
