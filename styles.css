@@ -1069,3 +1069,22 @@ button {
         margin-right: auto;
     }
 }
+
+/* LOADER */
+.load {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: hsl(0, 0%, 99%);
+    display: grid;
+    place-items: center;
+    z-index: 1000;
+}
+
+/* THE SIZE MAY VERY DEPENDING ON 
+THE IMAGE OF THE GIF */
+.load__gif {
+    width: 210px;
+}
