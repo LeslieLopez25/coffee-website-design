@@ -226,6 +226,11 @@ button {
     mix-blend-mode: difference;
 }
 
+/* ACTIVE LINK */
+.active-link {
+    color: #fff;
+}
+
 /* HOME */
 .home {
     gap: 0;
